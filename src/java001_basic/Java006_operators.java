@@ -1,4 +1,4 @@
-package java1005_basic;
+package java001_basic;
 
 /*
  * 연산자 (operator) : 어떠한 기능을 수행하는 기호(+, -, *, /, %, >, <, >=, <=, ==, !==...)
@@ -17,41 +17,36 @@ public class Java006_operators {
 	public static void main(String[] args) {
 		int numX = 10;
 		int numY = 5;
-		
-		//int = int + int
+
+		// int = int + int
 		int res = numX + numY;
 		System.out.println(res);
-		
+
 		double avg = 4.5;
-		
-		//double = int + double
+
+		// double = int + double
 		double val = numX + avg;
 		System.out.println(val);
-		
-		short a =3;
-		short b =4;
-		
-		
-		//int 이하끼리 연산하면 int로 리턴한다.
-		//Type mismatch: cannot convert from int to short
-		//short c = a + b;
+
+		short a = 3;
+		short b = 4;
+
+		// int 이하끼리 연산하면 int로 리턴한다.
+		// Type mismatch: cannot convert from int to short
+		// short c = a + b;
 		int c = a + b;
-		System.out.println(c); //7
-		
+		System.out.println(c); // 7
+
 		/*
-		 * int = short + short
-		 * int = byte + byte
-		 * int = char + char
-		 * int = short + byte
-		 * int = byte + char
-		 * int = int + byte
+		 * int = short + short int = byte + byte int = char + char int = short + byte
+		 * int = byte + char int = int + byte
 		 */
-		
-		//자바에서 문자를 표현할때 유니코드를 사용한다.
-		char data = '0'; //48 (유니코드 값)
-		char alpa = 'A'; //65 (유니코드 값)
+
+		// 자바에서 문자를 표현할때 유니코드를 사용한다.
+		char data = '0'; // 48 (유니코드 값)
+		char alpa = 'A'; // 65 (유니코드 값)
 		int sum = data + alpa;
-		System.out.println(sum); //113
-		
+		System.out.println(sum); // 113
+
 	}
 }

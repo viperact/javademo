@@ -1,5 +1,6 @@
-package java1005_basic;
+package java001_basic;
 /*
+ * 이클립스에서 지원하는 단축키
  * ctrl + spaceBar : 자동완성
  * ctrl + / : 한 라인 주석 설정 및 해제
  * ctrl + shift + / : 여러 라인 주석 설정
@@ -36,13 +37,13 @@ public class Java004_casting {
  		System.out.println(gNum);//6
  		
 // 		float tNum = 2.5; // 명시적 형변환 : double => float / 큰것을 작은것으로 바꿀때
- 		float tNum = (float)2.5; // 값 앞에 float(바꾸려는함수)를 붙여줌
+ 		float tNum = (float)2.5; // 강제 형변환 : 값 앞에 float(바꾸려는함수)를 붙여줌
  		System.out.println(tNum); // 2.5
  		
  		//데이터 손실이 발생되는 경우
  		byte data = (byte)128;
  		System.out.println(data); //-128
-		
+ 		
 	} //end main()
 
 } // end class

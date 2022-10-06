@@ -1,4 +1,4 @@
-package java1005_basic;
+package java001_basic;
 /*
  * 리너털(literal) : 그 자체의 값(1, 2, 3,..., 'a','b','c',..., true, false)
  * 변수 (variable) : 하나의 값을 저장하기 위한 메모리 공간
@@ -52,11 +52,11 @@ public class Java003_dataType {
 		System.out.println(z); //5 / 2진수 (0B) B는 대문자 소문자 상관없음 (0B101 == 0b101)
 		
 		int k = 0X101;
-		System.out.println(k); //257 / 16진수 (0X)
+		System.out.println(k); //257 / 16진수 (0X) (0X101 == 0x101)
 		
 		
 		//값 출력시 출력값들은 10진수로 바껴서 출력됨
-		
+			
 		
 		
 	}
