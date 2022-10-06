@@ -15,10 +15,12 @@ package java001_basic.prob;
 public class Prob06 {
 
 	public static void main(String[] args) {
-		int jumsu = 85;
+		int jumsu = 64;
 
 		// 여기에 작성하시오.
-		
+//		char res = jumsu>=80 ? '상' : (jumsu>=65 ? '중' : '하') ;
+		char res = jumsu>=65 ? (jumsu>=80 ? '상' : '중') : '하';
+		System.out.println(res);
 
 	}// end main( )
 

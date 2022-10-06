@@ -20,7 +20,10 @@ public class Prob05 {
 		int hap = ko + en + jp;
 
 		// 여기에 구현하세요.
-		
+		double avg = (double)hap/3;
+		System.out.println(avg);
+		String chk = avg>=60 ? "합격" : "불합격";
+		System.out.printf("%.1f점, %s입니다.\n", avg, chk);
 		
         
 	}//end main()

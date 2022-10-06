@@ -14,12 +14,17 @@ public class Prob07 {
 
 	public static void main(String[] args) {
 		int money = 7777;
-		int mok=money/500;		
+		int mok = money / 500;
+
+		// 여기에 작성하시오.
+		money = money % 500;
+		System.out.printf("500원 : %d개\n", mok);
+
+		mok = money / 100;
+		System.out.printf("100원 : %d개\n", mok);
 		
-		//여기에 작성하시오.
-				
-	}//end main()
+		//?
 
-}//end class
+	}// end main()
 
-
+}// end class
