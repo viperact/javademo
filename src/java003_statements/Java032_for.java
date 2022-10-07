@@ -1,23 +1,22 @@
 package java003_statements;
 
+/*
+ * 1 2 3 4 5
+ * 1 2 3 4 5
+ * 1 2 3 4 5
+ * 1 2 3 4 5
+ */
+
 public class Java032_for {
 	public static void main(String[] args) {
-		int data = 0;
-
-		label: for (int row = 1; row <= 3; row++) {
-			for (int col = 1; col <= 4; col++) {
-				//data++;
-				System.out.printf("%4d", ++data);
-				
-				if (data % 4 == 0) {
-					System.out.println();
-					continue label;
-				}
-
-			} // end for row
-			
-
-		} // end for col
+		//int data;
+		for (int row = 0; row <= 3; row++) {
+			//data = 1;
+			for (int col = 1; col <= 5; col++) {
+				System.out.printf("%4d", col); //(data); , %4d ??
+			}
+			System.out.println();
+		}
 
 	}// end main
 
