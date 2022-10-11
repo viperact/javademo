@@ -28,15 +28,20 @@ public class Prob001_method {
 
 	public static int[] mergeArray(int[] array1, int[] array2) {
 		// 여기에서 구현하세요.
-		int [] data = new int [array1.length + array2.length];
-		for(int i=0; i<data.length; i++) {
-			if(i<array1.length) {
+		int[] data = new int[array1.length + array2.length]; // 새로운 배열 생성
+		for (int i = 0; i < data.length; i++) {
+			// 합친 배열을 새로운 배열에 적용하는 조건식
+			if (i < array1.length) {
+				// array1의 index 0(1), 1(2), 2(3), 3(4), 4(5), 를 구하는 식
 				data[i] = array1[i];
 			} else {
+				// array2의 시작인 index 5(10), 6(20), 7(30)을 구하는 식
 				data[i] = array2[i - array1.length];
 			}
 		}
+
 		return data;
 	}// end mergeArry()
 
-}// end class
+}
+// end class

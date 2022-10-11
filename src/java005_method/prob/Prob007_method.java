@@ -20,7 +20,7 @@ package java005_method.prob;
 public class Prob007_method {
 
 	public static void main(String[] args) {
-		int[] arr = {10, 22, 9, 16, 11, 31};
+		int[] arr = { 10, 22, 9, 16, 11, 31 };
 
 		int[] result1 = sort(arr, "desc");
 		int[] result2 = sort(arr, "asc");
@@ -32,35 +32,35 @@ public class Prob007_method {
 		for (int i = 0; i < result2.length; i++) {
 			System.out.println(result2[i]);
 		}
-	}//end main( )
+	}// end main( )
 
 	private static int[] sort(int[] array, String orderby) {
 		// 구현하시오.
+		// ? 물어보기
 		int[] sorted_Arr = array.clone();
 		int temp;
-		
-		
-		if(orderby=="desc") {
-			for(int i = 0 ; i<array.length; i++) { //반복횟수
-			  for(int j =1; j<sorted_Arr.length; j++) { //bubble 정렬
-				  if(sorted_Arr[j-1] < sorted_Arr[j] ) {
-					  temp = sorted_Arr[j-1];
-					  sorted_Arr[j-1] = sorted_Arr[j];
-					  sorted_Arr[j] = temp;
-				  }
-			  }
-			}
-		}else {
-			for(int i = 0 ; i<array.length; i++) { //반복횟수
-				  for(int j =1; j<sorted_Arr.length; j++) { //정렬
-					  if(sorted_Arr[j-1] > sorted_Arr[j] ) {
-						  temp = sorted_Arr[j-1];
-						  sorted_Arr[j-1] = sorted_Arr[j];
-						  sorted_Arr[j] = temp;
-					  }
-				  }
+
+		if (orderby == "desc") {
+			for (int i = 0; i < array.length; i++) { // 반복횟수
+				for (int j = 1; j < sorted_Arr.length; j++) { // bubble 정렬
+					if (sorted_Arr[j - 1] < sorted_Arr[j]) {
+						temp = sorted_Arr[j - 1];
+						sorted_Arr[j - 1] = sorted_Arr[j];
+						sorted_Arr[j] = temp;
+					}
 				}
+			}
+		} else {
+			for (int i = 0; i < array.length; i++) { // 반복횟수
+				for (int j = 1; j < sorted_Arr.length; j++) { // 정렬
+					if (sorted_Arr[j - 1] > sorted_Arr[j]) {
+						temp = sorted_Arr[j - 1];
+						sorted_Arr[j - 1] = sorted_Arr[j];
+						sorted_Arr[j] = temp;
+					}
+				}
+			}
 		}
 		return sorted_Arr;
-	}//end sort( )
+	}// end sort( )
 }
