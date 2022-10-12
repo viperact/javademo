@@ -1,7 +1,5 @@
 package java006_class.prob;
 
-
-
 /* [실행결과]를 참조하여  main() 메소드에 로직을 추가하세요.
  * 
  * [실행결과]
@@ -11,8 +9,11 @@ package java006_class.prob;
 class Book2 {
 	String title;
 	String author;
-	void show() { System.out.println(title + " " + author); }
-	
+
+	void show() {
+		System.out.println(title + " " + author);
+	}
+
 	public Book2() {
 		this("", "");
 		System.out.println("생성자 호출됨");
@@ -21,14 +22,13 @@ class Book2 {
 	public Book2(String title) {
 		this(title, "작자미상");
 	}
-	
+
 	public Book2(String title, String author) {
 		this.title = title;
 		this.author = author;
 	}
-	
-}
 
+}
 
 public class Prob02_class {
 
@@ -36,10 +36,11 @@ public class Prob02_class {
 		Book2 javaBook = new Book2("Java", "황기태");
 		Book2 bible = new Book2("Bible");
 		Book2 emptyBook = new Book2();
-		/////////여기에 구현하세요.
-		
+		///////// 여기에 구현하세요.
+//		System.out.println(bible.title + " " + bible.author);
+		bible.show();
 		/////////////////////////////////////
 
-	}//end main( )
+	}// end main( )
 
-}//end class
+}// end class
