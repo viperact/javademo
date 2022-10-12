@@ -36,7 +36,7 @@ public class Prob007_method {
 
 	private static int[] sort(int[] array, String orderby) {
 		// 구현하시오.
-		// ? 물어보기
+		
 		int[] sorted_Arr = array.clone();
 		int temp;
 

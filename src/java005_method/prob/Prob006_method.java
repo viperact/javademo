@@ -11,7 +11,7 @@ public class Prob006_method {
 
 	private static void primeNumber(int num) {
 		// 구현하세요.
-		// ? 물어보기
+
 		for (int i = 2; i <= num; i++) {
 			for (int j = 2; j <= i; j++) {
 				if ((i % j) == 0) {
