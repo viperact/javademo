@@ -18,15 +18,15 @@ public class Prob01_class {
 		me[0] = new MovieShop("연평해전", 7000, 2);
 		me[1] = new MovieShop("극비수사", 7500, 3);
 		me[2] = new MovieShop("소수의견", 7000, 2);
-		
-		
+
 		// 여기에 구현하세요/////////////////
 
 		for (int i = 0; i < me.length; i++) {
 			me[i].prn();
-			
-			
+			sum += me[i].countMoney();
+
 		}
+		System.out.printf("총합계:" + sum);
 
 		//////////////////////////
 

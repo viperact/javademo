@@ -1,4 +1,5 @@
 package java007_class.part02.prob;
+
 /*
  * 1 연봉등급을 이용해서 각 사원의 연봉등급을 출력하는 로직을 구현하시오.
  * 
@@ -32,12 +33,19 @@ public class Prob02_class {
 
 	public static void display(SalesGrade[] sg) {
 		// 연봉등급표를 출력하는 로직구현
-
+		for (int i = 0; i < sg.length; i++) {
+			System.out.println(sg[i].toString());
+		}
 	}// end display()
 
 	public static void display(SalesGrade[] sg, String name, int sales) {
 		// 사원의 연봉등급을 출력하는 로직구현
+		for (int i = 0; i < sg.length; i++) {
+			if (sales <= sg[i].hisal && sales >= sg[i].losal) {
+				System.out.printf("%s님의 연봉은 %s등급 입니다.\n", name, sg[i].grade);
+			}
 
+		}
 	}// end display()
 
 }// end class
