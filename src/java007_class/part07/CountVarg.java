@@ -19,6 +19,7 @@ public class CountVarg {
 
 	//고정매개변수와 가변매개변수가 같이 사용될때는
 	//언제나 고정매개변수를 먼저 선언한다.
+	//마지막에 작성해야한다.
 	//가변매개변수는 딱 한번만 선언될 수 있다.
 	void sumValue(String name, int...arr) {
 		//정의 된 값이랑 맞춰야함 (sumValue)

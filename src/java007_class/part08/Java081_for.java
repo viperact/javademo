@@ -6,6 +6,7 @@ package java007_class.part08;
  * 	console.log(index); // 0 1 2 3 4
  * }
  * 
+ * 
  * for of문
  * for(let element of num){
  * 	console.log(element); // 10 20 30 40 50

@@ -6,7 +6,7 @@ package java008_static_access.part07;
  * 2. 하나의 객체만을 생성해서 참조하는 방법이다.
  * 3. 방법
  * 	  - 클래스가 정의된 클래스에서 자신의 객체를 생성한다
- * 	  private static MemberDao = new MemberDao();
+ * 	  private static MemberDao dao = new MemberDao();
  * 	  -static선언된 메소드에서 생성된 객체를 리턴한다.
  * 	  public static MemberDao getInstance(){
  * 	  	return dao;
@@ -24,10 +24,10 @@ public class Java090_singleton {
 	public static void main(String[] args) {
 		MemberDAO mb = MemberDAO.getInstance();
 		mb.display();
-		
+
 		MemberDAO mc = MemberDAO.getInstance();
 		mc.display();
-		
-		System.out.println(mb==mc);
+
+		System.out.println(mb == mc);
 	}
 }

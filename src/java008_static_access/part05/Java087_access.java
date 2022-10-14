@@ -18,7 +18,7 @@ package java008_static_access.part05;
  * 
  * package :
  * 1. 비슷한 작업을 수행하는 클래스 및 인터페이스를 묶어서 사용한다.
- * 2. opne API에서 제공하는 클래스 : 클래스 및 인터페이스 중복을 피하기 위해서 사용한다.
+ * 2. open API에서 제공하는 클래스 : 클래스 및 인터페이스 중복을 피하기 위해서 사용한다.
  * 	  
  * 	  domain : www.gov.kr
  * 	  package : kr.gov (인터페이스 충돌을 막기위해)
@@ -31,7 +31,9 @@ package java008_static_access.part05;
  * 3. 하나의 대상에 여러개의 제어자를 조합해서 사용할 수 있으나, 접근제어자 단 하나만 사용할 수 있다.
  * 	  접근제어자 - public, protected, default(=package), private (이중 하나만 사용가능)
  * 	  그외제어자 - static, final, abstract, synchronized...
+ * 	  제어자들은 순서가 바뀌어도 괜찮다.
  * 	  ex) public static final int data;
+ * 
  * 접근제어자(Access Modifier)
  * 	: 멤버 또는 클래스에 사용되어, 외부로 부터의 접근을 제한한다.
  * 
