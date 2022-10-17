@@ -11,9 +11,11 @@ package java010_abstract_interface.part03.answ;
 
 public class Prob003_interface_abstract {
 	public static void main(String[] args) {
-		//테스트할때 주석을 아래 주석을 해제 하세요.
-		/*Whale whale1 = new Whale();
+		// 테스트할때 주석을 아래 주석을 해제 하세요.
+		/*
+		Whale whale1 = new Whale();
 		whale1.swim();
-		whale1.bear();*/
+		whale1.bear();
+		*/
 	}
 }

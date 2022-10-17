@@ -9,37 +9,44 @@ public class Staff extends Person {
 	@Override
 	public char gender() {
 		// 주민번호를 이용해서 성별을 구한후 반환하는 로직을 구현하세요.
-		//String jumin="890426-1056214";
-		//char data=jumin.charAt(0);
-		
-		return ' ';
+		// String jumin="890426-1056214";
+		// char data=jumin.charAt(0);
+		char jm = getJumin().charAt(6);
+		if (jm == '1' || jm == '2') {
+			return '남';
+		} else {
+			return '여';
+		}
+		// 3을 쓴 이유? 소몰이의 index6이 2라서?
+
 	}
 
 	@Override
 	public int getYear() {
 		// 주민번호를 이용한 년도4자리를 구한후 반환하는 로직을 구현하세요.
-		//String jumin="890426-1056214";
-		//String year=jumsin.substring(0,2); =>"89"
-		//1,2 => 19+year   3,4=>20+year
-		//if(jumin.charAt(7)=='1')
-		//int num=Integer.parseInt(year);
-		return 0;
+		// String jumin="890426-1056214";
+		// String year=jumin.substring(0,2); =>"89"
+		// 1,2 => 19+year 3,4=>20+year
+		// if(jumin.charAt(7)=='1')
+		// int num=Integer.parseInt(year);
+		String year = getJumin().substring(0, 2);
+		char jm = getJumin().charAt(6);
+		if (jm == '1' || jm == '2') {
+			year = "19" + year;
+		} else {
+			year = "20" + year;
+		}
+		return Integer.parseInt(year);
 	}
 
 	@Override
-	public int getMonth() {		
-		return Integer.parseInt(getJumin().substring(2,4));
+	public int getMonth() {
+		return Integer.parseInt(getJumin().substring(2, 4));
 	}
-  
+
 	@Override
-	public int getDATE() {		
-		return Integer.parseInt(getJumin().substring(4,6));
+	public int getDATE() {
+		return Integer.parseInt(getJumin().substring(4, 6));
 	}
 
 }// end Staff
-
-
-
-
-
-
