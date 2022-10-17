@@ -1,4 +1,13 @@
 package java009_inheritance.part10;
+/*
+ * 
+ * import java.lang.System;
+ * import java.lang.String;
+ * 
+ * JVM에서 기본적으로 제공되는 import (기본적인 코어들)
+ * - 별도로 import를 안해도 기본적으로 경로를 잡아준다.
+ */
+
 
 public class Java101_inheritance {
 	
