@@ -28,12 +28,13 @@ public class Java037_array {
 		System.out.println(arr[0]);
 		System.out.println(arr[1]);
 		System.out.println(arr[2]);
-		
-		//Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: Index 3 out of bounds for length 3
-		//System.out.println(arr[3]);
-		
-		//배열의 크기 : length
-		for(int i = 0; i<arr.length; i++) {
+
+		// Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: Index 3
+		// out of bounds for length 3
+		// System.out.println(arr[3]);
+
+		// 배열의 크기 : length
+		for (int i = 0; i < arr.length; i++) {
 			System.out.println(arr[i]);
 		}
 

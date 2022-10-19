@@ -16,9 +16,9 @@ public class Java051_array {
 			}
 			System.out.printf("\n");
 		}
-		
+
 		System.out.println("============================");
-		for(int i=0; i<color.length; i++) {
+		for (int i = 0; i < color.length; i++) {
 			System.out.println(color[i]);
 		}
 

@@ -21,7 +21,7 @@ public class Prob_03 {
 			}
 		}
 
-		System.out.println("sum="+sum);
+		System.out.println("sum=" + sum);
 	}// end main()
 
 }// end class

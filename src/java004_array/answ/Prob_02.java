@@ -20,24 +20,23 @@ public class Prob_02 {
 			}
 		}
 		//////////////////
-		//연산
-		for(int i=0; i<data.length-1;i++){
-			for(int j=0; j<data[i].length-1; j++){
-				data[i][3]+=data[i][j];
-				data[3][j]+=data[i][j];				
+		// 연산
+		for (int i = 0; i < data.length - 1; i++) {
+			for (int j = 0; j < data[i].length - 1; j++) {
+				data[i][3] += data[i][j];
+				data[3][j] += data[i][j];
 			}
-			data[3][3]+=data[i][3];
+			data[3][3] += data[i][3];
 		}
-		
+
 		///////////////////////////////
-		//출력
-		for(int i=0; i<data.length;i++){
-			for(int j=0; j<data[i].length;j++){
-				System.out.printf("%4d",data[i][j]);
+		// 출력
+		for (int i = 0; i < data.length; i++) {
+			for (int j = 0; j < data[i].length; j++) {
+				System.out.printf("%4d", data[i][j]);
 			}
 			System.out.println();
 		}
-		
 
 	}// end main()
 

@@ -26,7 +26,7 @@ public class Java045_array {
 			}
 //			System.out.printf("%4d %6.1f\n", sum, (double)sum/3);
 //			System.out.printf("%4d %6.1f\n", sum, sum/3.0);
-			System.out.printf("%4d %6.1f\n", sum, (double)sum/jumsu[index].length);
+			System.out.printf("%4d %6.1f\n", sum, (double) sum / jumsu[index].length);
 		}
 
 	}

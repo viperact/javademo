@@ -39,8 +39,7 @@ public class Prob06 {
 		case "사원":
 			money = 150;
 		}
-		
-		
+
 		if (overtime >= 20) {
 			money += 20;
 		} else if (overtime < 10) {

@@ -10,13 +10,10 @@ package java003_statements.prob;
  *     
  */
 
-
-
-
 public class Prob_05 {
 
-	public static void main(String[] args) {		
-		
-	}//end main()
+	public static void main(String[] args) {
 
-}//end class
+	}// end main()
+
+}// end class

@@ -18,6 +18,6 @@ public class Java012_operators {
 		res = x>y || x==z;
 		System.out.println(res); //true
 		
-	}
+	} 
 
 }

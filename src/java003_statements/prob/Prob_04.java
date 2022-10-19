@@ -11,7 +11,6 @@ package java003_statements.prob;
 public class Prob_04 {
 
 	public static void main(String[] args) {
-		
 
 	}// end main()
 

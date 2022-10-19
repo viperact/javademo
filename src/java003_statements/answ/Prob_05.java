@@ -25,10 +25,10 @@ package java003_statements.answ;
 public class Prob_05 {
 
 	public static void main(String[] args) {
-		
-		for (int j = 2; j <= 5; j++) {		
+
+		for (int j = 2; j <= 5; j++) {
 			System.out.printf("%d의 배수 :", j);
-			for (int i = 1; i <= 20; i++) {				
+			for (int i = 1; i <= 20; i++) {
 				if (i % j != 0) {
 					continue;
 				}

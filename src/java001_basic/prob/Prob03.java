@@ -11,29 +11,13 @@ package java001_basic.prob;
 public class Prob03 {
 
 	public static void main(String[] args) {
-	  //여기에 구현하세요.		
-     int a = 123; //사과의 수
-     int b = 10; // 하나의 바구니에 담는 사과의 수
-     int res = a%b==0 ? a/b : a/b +1; // 사과의 수와 바구니에 담는 사과의 수를 나눈 나머지가 0이라면
-     								  // a/b가 참이라면 a/b 출력(12) , 거짓이라면 a/b + 1(13)출력
-     System.out.printf("필요한 바구니의 수 : %d\n", res );
-     
-     
-      
-	}//end main()
+		// 여기에 구현하세요.
+		int a = 123; // 사과의 수
+		int b = 10; // 하나의 바구니에 담는 사과의 수
+		int res = a % b == 0 ? a / b : a / b + 1; // 사과의 수와 바구니에 담는 사과의 수를 나눈 나머지가 0이라면
+													// a/b가 참이라면 a/b 출력(12) , 거짓이라면 a/b + 1(13)출력
+		System.out.printf("필요한 바구니의 수 : %d\n", res);
 
-}//end class
+	}// end main()
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+}// end class

@@ -36,10 +36,10 @@ public class Java022_switch {
 			lastDay = 31;
 			break;
 		default:
-			if(year%4==0 && year%100!=0 || year%400==0) {
-				lastDay=29; //윤년
-			}else {
-				lastDay=28; //평년
+			if (year % 4 == 0 && year % 100 != 0 || year % 400 == 0) {
+				lastDay = 29; // 윤년
+			} else {
+				lastDay = 28; // 평년
 			}
 		}
 

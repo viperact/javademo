@@ -13,12 +13,12 @@ public class Java029_for {
 		int even = 0; // 짝수
 
 		for (int i = 1; i <= 10; i++) {
-			// i변수의 값이 짝수이면              // i변수의 값이 홀수이면
-			if (i % 2 == 0) {                 // if(i%2==1){
-				even = even + i;              //  odd = odd +i;
-			} else {                          //  } else {
-				odd = odd + i;                //  even = even +i;
-			}                                 // }
+			// i변수의 값이 짝수이면 // i변수의 값이 홀수이면
+			if (i % 2 == 0) { // if(i%2==1){
+				even = even + i; // odd = odd +i;
+			} else { // } else {
+				odd = odd + i; // even = even +i;
+			} // }
 		}
 		System.out.printf("홀수누적 : %d\n", odd);
 		System.out.printf("짝수누적 : %d\n", even);

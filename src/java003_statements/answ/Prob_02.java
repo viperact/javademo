@@ -10,7 +10,7 @@ package java003_statements.answ;
 
 public class Prob_02 {
 
-	public static void main(String[] args) { 
+	public static void main(String[] args) {
 
 		for (int year = 2001; year <= 2012; year++) {
 

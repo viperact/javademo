@@ -15,28 +15,26 @@ package java004_array;
  */
 public class Java049_array {
 	public static void main(String[] args) {
-		char[][] alpa = new char [][] {{'a', 'b', 'c', 'd'},
-									   {'a', 'b', 'c', 'd'},
-									   {'a', 'b', 'c', 'd'},
-									   {'a', 'b', 'c', 'd'}};
-		for(int i=0; i<alpa.length; i++) {
-			for(int j=0; j<alpa[i].length; j++) {
-				if(i==j) {
-					
+		char[][] alpa = new char[][] { { 'a', 'b', 'c', 'd' }, { 'a', 'b', 'c', 'd' }, { 'a', 'b', 'c', 'd' },
+				{ 'a', 'b', 'c', 'd' } };
+		for (int i = 0; i < alpa.length; i++) {
+			for (int j = 0; j < alpa[i].length; j++) {
+				if (i == j) {
+
 					System.out.printf("%4c", '*');
-				} 
+				}
 				System.out.printf("%4c", alpa[i][j]);
-				
+
 			}
 			System.out.printf("\n");
-			
-			if(i==alpa.length-1) {
-				for(int k=0; k<alpa[i].length; k++) {
+
+			if (i == alpa.length - 1) {
+				for (int k = 0; k < alpa[i].length; k++) {
 					System.out.printf("%4c", alpa[i][k]);
 				}
 				System.out.printf("%4c", '*');
 			}
-			
-		}	
+
+		}
 	}
 }

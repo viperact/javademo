@@ -20,15 +20,13 @@ public class Prob05 {
 
 	public static void main(String[] args) {
 		int car_num = 5;
-		String day="";
-		
-		//여기에서 구현하세요////////////////////////////////
-		
-		
+		String day = "";
+
+		// 여기에서 구현하세요////////////////////////////////
+
 		///////////////////////////////////////////////
-		System.out.printf("차량번호의 끝자리가 %d인 차량은 %s 운행을 제한합니다.",car_num,day);
+		System.out.printf("차량번호의 끝자리가 %d인 차량은 %s 운행을 제한합니다.", car_num, day);
 
+	}// end main()
 
-	}//end main()
-
-}//end class
+}// end class

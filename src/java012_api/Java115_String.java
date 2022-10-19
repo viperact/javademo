@@ -23,6 +23,6 @@ public class Java115_String {
 		//st.toString과 st의 호출값은 같음
 		System.out.println(st.toString());
 		System.out.println(st);
-	}
+	} 
 	
 }

@@ -22,8 +22,8 @@ public class Prob07 {
 
 		mok = money / 100;
 		System.out.printf("100원 : %d개\n", mok);
-		
-		//?
+
+		// ?
 
 	}// end main()
 

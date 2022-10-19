@@ -24,7 +24,7 @@ public class Prob02 {
 		int price = 0;
 
 		// switch~case문을 이용해서 프로그램을 코딩하시요.///////////////////////////////
-		switch(code) {
+		switch (code) {
 		case 'A':
 			menu = "짬뽕";
 			price = 7500;
@@ -42,7 +42,7 @@ public class Prob02 {
 			price = 4000;
 			break;
 		}
-		
+
 		///////////////////////////////////////////////
 
 		System.out.printf("%s메뉴 가격은 %d원입니다.", menu, price);

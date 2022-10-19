@@ -14,10 +14,10 @@ package java001_basic.answ;
 public class Prob04 {
 
 	public static void main(String[] args) {
-		int year=2012;
-		
-		//여기에 작성하시오.
-		boolean  leapYearCheck = (year % 4 == 0 && year % 100 != 0) || (year%400 == 0);
+		int year = 2012;
+
+		// 여기에 작성하시오.
+		boolean leapYearCheck = (year % 4 == 0 && year % 100 != 0) || (year % 400 == 0);
 		String yearData = leapYearCheck ? "윤년" : "평년";
 		System.out.printf("%d년도는 %s입니다.\n", year, yearData);
 	}

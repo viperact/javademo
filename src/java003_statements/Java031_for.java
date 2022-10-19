@@ -12,12 +12,12 @@ public class Java031_for {
 
 		for (int row = 1; row <= 3; row++) {
 			for (int col = 1; col <= 4; col++) {
-				System.out.printf("%4d", data++ ); //data 값이 0이라면 ++기호를 data앞에 쓰기
-				//data++;
+				System.out.printf("%4d", data++); // data 값이 0이라면 ++기호를 data앞에 쓰기
+				// data++;
 			} // end for row
 			System.out.println();
 		} // end for col
-		
+
 	} // end main()
-	
+
 } // end class

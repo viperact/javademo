@@ -15,6 +15,6 @@ public class Java011_operators {
 		System.out.println(x == z); //true
 		System.out.println(x != z); //false
  		
-	} //end main
+	} //end main 
 
 } //end class

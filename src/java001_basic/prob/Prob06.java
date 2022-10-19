@@ -19,7 +19,7 @@ public class Prob06 {
 
 		// 여기에 작성하시오.
 //		char res = jumsu>=80 ? '상' : (jumsu>=65 ? '중' : '하') ;
-		char res = jumsu>=65 ? (jumsu>=80 ? '상' : '중') : '하';
+		char res = jumsu >= 65 ? (jumsu >= 80 ? '상' : '중') : '하';
 		System.out.println(res);
 
 	}// end main( )

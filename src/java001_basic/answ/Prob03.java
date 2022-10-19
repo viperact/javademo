@@ -11,28 +11,14 @@ package java001_basic.answ;
 public class Prob03 {
 
 	public static void main(String[] args) {
-	  //여기에 구현하세요.		
-      int numOfApple = 123; //사과의 수
-      int sizeOfBucket = 10; //하나의 바구니에 담는 사과수
-      int numOfBucket; //필요한 바구니 수
-      
-      numOfBucket = numOfApple % sizeOfBucket == 0 ? numOfApple / sizeOfBucket : numOfApple / sizeOfBucket + 1;
-      System.out.printf("필요한 바구니의 수 : %d\n", numOfBucket);
-      
-	}//end main()
+		// 여기에 구현하세요.
+		int numOfApple = 123; // 사과의 수
+		int sizeOfBucket = 10; // 하나의 바구니에 담는 사과수
+		int numOfBucket; // 필요한 바구니 수
 
-}//end class
+		numOfBucket = numOfApple % sizeOfBucket == 0 ? numOfApple / sizeOfBucket : numOfApple / sizeOfBucket + 1;
+		System.out.printf("필요한 바구니의 수 : %d\n", numOfBucket);
 
+	}// end main()
 
-
-
-
-
-
-
-
-
-
-
-
-
+}// end class

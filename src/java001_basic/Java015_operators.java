@@ -23,5 +23,5 @@ public class Java015_operators {
 		// x = x * 1
 		x *= 1;
 		System.out.printf("x=%d\n", x);
-	}
+	} 
 }

@@ -13,7 +13,7 @@ package java002_statements.answ;
  *  code의 값이 'B' 일때 => 만두메뉴 가격은 6000원입니다.
  *  code의 값이 'C' 일때 => 짜장메뉴 가격은 5000원입니다.
  *  code의 값이 'C' 일때 => 라면메뉴 가격은 4000원입니다.
- *  code의 값이  A,B,C,D가 아닐때 => 제공하지 않는 메뉴입니다.
+ *  code의 값이  A,B,C,D가 아닐때 => 제공하지 않는 메뉴입니다. 
  */
 
 public class Prob02 {

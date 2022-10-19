@@ -46,6 +46,5 @@ class Prob04 {
 
 		// 여기에 구현하시오.
 
-		
 	}// end main()
 }// end class

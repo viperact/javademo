@@ -12,8 +12,8 @@ public class Java036_do_while {
 		char chk = 'y';
 		do {
 			System.out.println("주문하시겠습니까?(y/n)");
-		} while (chk == 'n'); //chk값이 같다면 무한출력 아니면 한번만 출력
-		
-	}//end main()
-	
-}//end class
+		} while (chk == 'n'); // chk값이 같다면 무한출력 아니면 한번만 출력
+
+	}// end main()
+
+}// end class

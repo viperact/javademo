@@ -11,11 +11,11 @@ public class Prob01 {
 	public static void main(String[] args) {
 		int num = 10;
 		int res;
-		
-		//여기에 작성하세요. 
-		res = num%10==0 ? 0 : 1;
-		System.out.println("res="+ res);
-		
+
+		// 여기에 작성하세요.
+		res = num % 10 == 0 ? 0 : 1;
+		System.out.println("res=" + res);
+
 	}
 
 }

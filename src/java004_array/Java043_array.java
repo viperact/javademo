@@ -31,11 +31,11 @@ public class Java043_array {
 
 		System.out.println("====================================");
 		for (int row = 0; row < num.length; row++) {
-			//배열명.[row].length :각 행에 대한 열의 갯수를 리턴한다 (2)
-			for(int col = 0; col<num[row].length; col++) {
+			// 배열명.[row].length :각 행에 대한 열의 갯수를 리턴한다 (2)
+			for (int col = 0; col < num[row].length; col++) {
 				System.out.printf("%4d", num[row][col]);
 			}
-				
+
 //			System.out.println();
 			System.out.printf("\n");
 		}

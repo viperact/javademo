@@ -21,6 +21,6 @@ public class Java026_for {
 
 			}
 		}
-		
+
 	}
 }

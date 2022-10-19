@@ -10,7 +10,7 @@ public class Java014_operators {
 	public static void main(String[] args) {
 		int total = 23;
 		int record = 5;
-		int res = total%record == 0 ? total/record : total/record +1;
+		int res = total % record == 0 ? total / record : total / record + 1;
 		System.out.println(res);
 	}
 

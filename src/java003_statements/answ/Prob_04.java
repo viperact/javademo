@@ -16,7 +16,7 @@ public class Prob_04 {
 			for (int j = 0; j <= 10; j++) {
 				sum = 2 * i + 3 * j;
 				if (sum == 10) {
-			  //if (2*i+3*j==10){
+					// if (2*i+3*j==10){
 					System.out.printf("x=%d, y=%d\n", i, j);
 				}
 

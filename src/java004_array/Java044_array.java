@@ -38,7 +38,7 @@ public class Java044_array {
 			System.out.printf("%4d", num[2][col]);
 			System.out.println();
 		}
-		
+
 		System.out.println("==============================");
 		for (int col = 0; col < 2; col++) {
 			for (int row = 0; row < 3; row++) {
