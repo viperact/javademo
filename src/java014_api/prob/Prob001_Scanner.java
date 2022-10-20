@@ -17,23 +17,18 @@ import java.util.Scanner;
 public class Prob001_Scanner {
 	public static void main(String[] args) {
 		Scanner key = new Scanner(System.in);
-		/* randomNum에 1부터 100까지의 숫자 중 컴퓨터가 임의로 발생시킨 값이 저장되도록 작성합니다.*/
-		int randomNum =0 ;//컴퓨터가 임의로 발생시키는 값을 저장할 변수
-		int userNum =0;//사용자가 입력할 값을 저장할 변수
-		int count = 0;//실행횟수를 저장할 변수
-		//randomNum과 userNum이 일치할때 까지 반복하여 입력받아 평가하는 코드를 작성하세요.
+		/* randomNum에 1부터 100까지의 숫자 중 컴퓨터가 임의로 발생시킨 값이 저장되도록 작성합니다. */
+		int randomNum = 0;// 컴퓨터가 임의로 발생시키는 값을 저장할 변수
+		int userNum = 0;// 사용자가 입력할 값을 저장할 변수
+		int count = 0;// 실행횟수를 저장할 변수
+		// randomNum과 userNum이 일치할때 까지 반복하여 입력받아 평가하는 코드를 작성하세요.
 		
-		
-	}//end main()
+		while(true) {
+			System.out.print("1부터 100까지 숫자를 입력하세요:");
+			int ran = key.nextInt();
+			
+		}
+	
+	}// end main()
 
-}//end class
-
-
-
-
-
-
-
-
-
-
+}// end class
