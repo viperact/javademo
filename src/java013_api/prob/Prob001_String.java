@@ -23,8 +23,13 @@ public class Prob001_String {
              String data[] = message.split("\\*{2}");
              
              Product pt = new Product();
+             pt.setProductId(data[0]);
+             pt.setMaker(data[1]);
+             pt.setName(data[2]);
+             pt.setAmount(Integer.parseInt(data[3]));
+             pt.setPrice(Integer.parseInt(data[4]));
              
-		return null;
+		return pt;
 	}// end creatProduct
 }// end class
 
