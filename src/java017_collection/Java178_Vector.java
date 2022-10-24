@@ -14,28 +14,26 @@ public class Java178_Vector {
 		// int -> Integer -> Object : auto boxing -> up-casting
 		v.add(30);
 		v.add(40);
-		//String -> Object : up-casting
+		// String -> Object : up-casting
 		v.add(new String("java"));
-		
-		//Object -> Integer " down-casting
-		Integer it1 = (Integer)v.get(0);
-		Integer it2 = (Integer)v.get(1);
-		Integer it3 = (Integer)v.get(2);
-		Integer it4 = (Integer)v.get(3);
-		String sn = (String)v.get(4);
+
+		// Object -> Integer " down-casting
+		Integer it1 = (Integer) v.get(0);
+		Integer it2 = (Integer) v.get(1);
+		Integer it3 = (Integer) v.get(2);
+		Integer it4 = (Integer) v.get(3);
+		String sn = (String) v.get(4);
 		System.out.println(it1.intValue());
 		System.out.println(it2.intValue());
 		System.out.println(it3.intValue());
 		System.out.println(it4.intValue());
 		System.out.println(sn.toString());
-		try{
-		System.out.println(v.get(20));
+		try {
+			System.out.println(v.get(20));
 		} catch (ArrayIndexOutOfBoundsException ex) {
 			System.out.println(ex.toString());
 		}
-		
-		
-		
+
 	}
 
 }
