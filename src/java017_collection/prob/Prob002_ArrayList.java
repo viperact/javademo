@@ -38,6 +38,7 @@ public class Prob002_ArrayList {
 		bookList.add(new BookDTO("톰 과 제리", "만화", 2000));
 		
 		System.out.println("컴퓨터책 대여수입");
+		// static 선언 class.method
 		System.out.println("---> " + BookManager.getRentalPrice(bookList, "컴퓨터"));
 		
 		System.out.println("소설책 대여수입");

@@ -20,15 +20,26 @@ public class Prob004_ArrayList {
 
 	public static ArrayList<Integer> merge(int[] arr, int[] num) {
 		// arr,num배열을 병합한후 2의 배수만 리턴하는 프로그램을 구현하시오.
-		int data[] = new int[arr.length + num.length];
+		// return값 = ArrayList
+		//크기 10의 배열생성
+		int[] data = new int[arr.length + num.length];
+		
+		//num배열에서 0번째에서 data에 복사해서 넣어준다 0번째 인덱스에. arr.length 길이만큼
 		System.arraycopy(arr, 0, data, 0, arr.length);
+		//arr.length : 시작점(5)부터 num.length길이만큼 (5) data에 복사
 		System.arraycopy(num, 0, data, arr.length, num.length);
+		
 		ArrayList<Integer> aList = new ArrayList<Integer>();
-		for (int i = 0; i < data.length; i++) {
-			if (data[i] % 2 == 0)
-				aList.add(data[i]);
-
+		for(Integer it : data) {
+			if(it%2==0)
+				aList.add(it);
 		}
+			
+		
+//		for (int i = 0; i < data.length; i++) {
+//			if (data[i] % 2 == 0)
+//				aList.add(data[i]);
+//		}
 
 		return aList;
 

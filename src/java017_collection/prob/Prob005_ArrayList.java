@@ -29,12 +29,15 @@ public class Prob005_ArrayList {
 		/*
 		 * tv.txt파일의 데이터를 ArrayList에 저장하는 프로그램을 구현하시오.
 		 */
-		try {
-			Scanner sc = new Scanner(new File(".\\src\\java017_collection\\prob\\tv.txt"));
+		try (Scanner sc = new Scanner(new File(".\\src\\java017_collection\\prob\\tv.txt"));) {
 
-			while (sc.hasNext()) {
+			while (sc.hasNextLine()) {
+				// 한 라인을 읽어온다
 				String line = sc.nextLine();
+				// ":" 으로 나눈다
 				String arr[] = line.split(":");
+				// Televison 객체 생성
+				// 1:지성이면 감천:KBS1:22.6
 				Television tv = new Television();
 				tv.setRank(Integer.parseInt(arr[0]));
 				tv.setProgram(arr[1]);
@@ -43,7 +46,7 @@ public class Prob005_ArrayList {
 				aList.add(tv);
 			}
 		} catch (FileNotFoundException e) {
-			e.printStackTrace();
+			System.out.println(e.toString());
 		}
 
 		prnDisplay(aList, "MBC");
@@ -55,10 +58,11 @@ public class Prob005_ArrayList {
 
 	public static void prnDisplay(ArrayList<Television> aList, String channel) {
 		// channel매개변수에 해당하는 프로그램이 출력되도록 구현하시오.
-		System.out.println(channel);
+		// System.out.println(channel);
+		System.out.printf("[ %s ]\n", channel);
 		for (Television tv : aList) {
 			if (tv.getChannel().equals(channel))
-				System.out.printf("%3d \t %3s \t %5s %3.1f\n", tv.getRank(), tv.getProgram(), tv.getChannel(),
+				System.out.printf("%3d \t %-10s \t %-4s %5.1f\n", tv.getRank(), tv.getProgram(), tv.getChannel(),
 						tv.getRating());
 		}
 	}// end prnDisplay()

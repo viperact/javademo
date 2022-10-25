@@ -5,13 +5,13 @@ import java.util.ArrayList;
 public class BookManager {
 	public static int getRentalPrice(ArrayList<BookDTO> bookList, String kind) {
 		// 구현하세요.
-		int sum = 0;
+		int sum = 0; // 합계를 저장하기위한 메모리공간생성 
 
 		for (BookDTO dto : bookList) {
 			if (dto.getKind().equals(kind))
-				sum += sum + dto.getRentalPrice();
-
+				sum += dto.getRentalPrice();
 		}
+
 		return sum;
 	}// end getRentalPrice()
 
