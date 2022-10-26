@@ -15,9 +15,16 @@ public class Product {
 		this.price = price;
 		this.quantity = quantity;
 	}
+<<<<<<< HEAD
 
 	void information() {
 		System.out.printf("상품명 : %s\n 가격 : %d 원\n 수량 : %d 개\n 총 구매 가격 : %d 원", name, price, quantity, (price * quantity));
+=======
+	
+	public void information() {
+		System.out.printf("상품명 : %s\n 가격 : %d 원\n 수량 : %d 개\n 총 구매 가격 : %d 원",
+				name, price, quantity, (price * quantity));
+>>>>>>> branch 'master' of https://github.com/viperact/javademo.git
 
 	}
 
