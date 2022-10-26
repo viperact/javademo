@@ -7,7 +7,7 @@ public class Product {
 	int quantity;
 
 	public Product() {
-
+		this("갤럭시 s7", 563500, 3);
 	}
 
 	public Product(String name, int price, int quantity) {
@@ -16,9 +16,9 @@ public class Product {
 		this.quantity = quantity;
 	}
 	
-	private void information() {
+	public void information() {
 		System.out.printf("상품명 : %s\n 가격 : %d 원\n 수량 : %d 개\n 총 구매 가격 : %d 원",
-				name, price, quantity);
+				name, price, quantity, (price * quantity));
 
 	}
 
