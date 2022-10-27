@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 package ncs.test5;
 
 public class Book {
@@ -41,3 +42,22 @@ public class Book {
 	}
 
 }
+=======
+package ncs.test5;
+
+public class Book {
+	String title;
+	String author;
+	String publisher;
+	int price;
+	double discountRate;
+
+	public Book() {
+
+	}
+
+	public Book(String title, String author, String publisher, int price, double discountRate) {
+
+	}
+}
+>>>>>>> branch 'master' of https://github.com/viperact/javademo.git
