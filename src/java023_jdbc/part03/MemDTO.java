@@ -10,7 +10,7 @@ public class MemDTO {
 		
 	}
 
-	//num은 왜 필드셋을 생성안함?
+	//num은 왜 필드셋을 생성안함? = oracle에서 시퀀스로 생성해둠
 	public MemDTO(String name, int age, String loc) {
 		super();
 		this.name = name;
